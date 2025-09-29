@@ -1,0 +1,28 @@
+[
+  {
+    "kind": "column",
+    "name": "Generative Art Engine",
+    "description": "Creates unique generative art from text/numbers using p5.js - each input generates completely different abstract masterpieces",
+    "author": "Your Name",
+    "params": [
+      {
+        "name": "seedText",
+        "displayName": "Seed (Text or Number)",
+        "type": "string"
+      },
+      {
+        "name": "colorScheme",
+        "displayName": "Color Scheme",
+        "type": "string"
+      },
+      {
+        "name": "complexity",
+        "displayName": "Complexity (1-10)",
+        "type": "number"
+      }
+    ],
+    "result": {
+      "type": "string"
+    }
+  }
+]
